@@ -7,7 +7,7 @@
   display: flex;
   padding-left: 10%;
   justify-content: left;
-  padding-top: 8pc;
+  padding-top: 8%;
   color: rgb(255, 255, 255);
   font-size: 50px;
   font-weight: 850;
@@ -27,6 +27,10 @@
   font-size: 35px;
   font-weight: 700;
   font-family: 'Open Sans';
+  /* overflow: auto; */
+}
+.text3-text4{
+  display: flex;
 }
 
 .text5{
@@ -62,8 +66,8 @@
   display: flex;
   justify-content: right;
   align-items: center;
-  margin-top: 5pc;
-  padding-right: 2pc;
+  margin-top: 4%;
+  padding-right: 1.5pc;
 }
 
 .facebook-icon{
