@@ -9,7 +9,7 @@ import './custom.css';
 
 function ResponsiveNavBar() {
   return (
-    <Navbar expand="sm" className="custom-navbar-theme">
+    <Navbar expand="sm" className="custom-navbar-theme" fixed="top">
       <Container>
         <Navbar.Brand><img className="img-logo" src={logo} alt='EonTech'/></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
