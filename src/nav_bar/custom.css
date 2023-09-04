@@ -8,7 +8,7 @@
 }
 .custom-navbar-theme {
   background-image: linear-gradient(90deg, rgb(255, 255, 255),rgb(75, 75, 75),rgb(47, 47, 47));
-  
+  /* background-color: transparent; */
   position: sticky;
   top: 0;
   padding: 0 !important;
@@ -19,17 +19,23 @@
   max-width: 100% !important;
 }
 
-.custom-nav {
+/* .custom-nav {
   margin-right: 5vh;
-  
-}
-
-.nav-link {
   color: aliceblue !important;
   font-size: large;
   transition: 0.5s;
-  /* font-weight: 400; */
+  text-decoration: none;
+} */
+
+.nav-link {
+  margin-right: 5vh;
+  color: aliceblue !important;
+  font-size: large;
+  transition: 0.5s;
+  text-decoration: none;
 }
+  /* font-weight: 400; */
+
 
 .nav-link:hover {
   cursor: pointer;
@@ -37,6 +43,6 @@
   transform: scale(1.2,1.2);
 }
 
-.nav-link:focus{
+.nav-link:focus {
   color: rgb(255, 185, 0) !important;
 }

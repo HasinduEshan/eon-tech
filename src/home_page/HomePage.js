@@ -8,7 +8,6 @@ export default function HomePage() {
         We are,
       </div>
 
-
       <div className='text2 container-fluid'>
         <div className='row'>
           <div className='text3-text4 col-md-3 col-sm-12'>
