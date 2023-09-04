@@ -28,7 +28,7 @@ export default function HomePage() {
 
 
       <div className='text5'>
-        a Software Company based in Galle.
+        a Software Company based in Sri Lanka.
       </div>
 
       <div className='text6 col-md-7 col-sm-12'>
