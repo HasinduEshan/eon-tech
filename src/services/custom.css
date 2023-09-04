@@ -1,16 +1,13 @@
-
-.second-div{
+.second-div {
   height: 100%;
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: end;
+  align-items: flex-end;
 }
 
-
-.second-cover{
+.second-cover {
   background-color: rgb(207, 207, 207);
   height: 16pc;
   width: 100%;
-  
 }
