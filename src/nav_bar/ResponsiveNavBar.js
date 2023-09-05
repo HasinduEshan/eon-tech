@@ -5,12 +5,12 @@ import logo from '../img/logo.png';
 import './custom.css';
 import { Link } from "react-scroll";
 
-function ResponsiveNavBar({ home, about_us, services }) {
+function ResponsiveNavBar({ home, about_us, services, company }) {
   
   return (
     <Navbar expand="sm" className="custom-navbar-theme" fixed="top">
       <Container fluid>
-        <Navbar.Brand href="#" ><img className="img-logo" src={logo} alt='EonTech' /></Navbar.Brand>
+        <Navbar.Brand href="#" ><img className="logo" src={logo} alt='EonTech' /></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" >
           <Nav className="justify-content-end mr-auto" style={{ width: "100%" }}>
@@ -27,7 +27,7 @@ function ResponsiveNavBar({ home, about_us, services }) {
               Services
             </Link>
 
-            <Link className='nav-link' activeClass="active" spy={true} offset={-50} smooth={true} duration={100}>
+            <Link className='nav-link' activeClass="active" to={company} spy={true} offset={-50} smooth={true} duration={100}>
               Company
             </Link>
 
