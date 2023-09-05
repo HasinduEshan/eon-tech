@@ -14,7 +14,7 @@ export default function HorizontalFrame() {
     const scrollingWrapper = document.getElementById('scroll-container');
     if (scrollingWrapper) {
       scrollingWrapper.scrollBy({
-        left: 400, // Adjust the value as needed
+        left: 421, // Adjust the value as needed
         behavior: 'smooth', // Add smooth scrolling behavior
       });
     }
@@ -24,7 +24,7 @@ export default function HorizontalFrame() {
     const scrollingWrapper = document.getElementById('scroll-container');
     if (scrollingWrapper) {
       scrollingWrapper.scrollBy({
-        left: -400, // Adjust the value as needed
+        left: -421, // Adjust the value as needed
         behavior: 'smooth', // Add smooth scrolling behavior
       });
     }
