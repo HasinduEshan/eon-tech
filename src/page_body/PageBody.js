@@ -10,7 +10,7 @@ export default function PageBody() {
   return (
     <div>
 
-      <ResponsiveNavBar home='home' about_us='about-us' services={'services'}/>
+      <ResponsiveNavBar home='home' about_us='about-us' services={'services'} />
 
       <section id='home' className='cover'>
         <HomePage />
@@ -24,9 +24,15 @@ export default function PageBody() {
       </section>
       <section id='services' className='services-cover'>
         Our Services
-        <Services/>
+        <Services />
       </section>
-
+      {/* <section id='company' className='container-fluid'>
+        <div className='row'>
+          <div className='company-cover col-sm-12 col-md-6'>
+            
+          </div>
+        </div>
+      </section> */}
     </div>
   )
 }
