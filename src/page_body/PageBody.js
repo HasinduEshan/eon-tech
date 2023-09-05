@@ -9,7 +9,9 @@ import Services from '../services/Services';
 export default function PageBody() {
   return (
     <div>
-      <ResponsiveNavBar home='home' about_us='about-us' />
+
+      <ResponsiveNavBar home='home' about_us='about-us' services={'services'}/>
+
       <section id='home' className='cover'>
         <HomePage />
       </section>

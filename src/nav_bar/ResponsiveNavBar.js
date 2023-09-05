@@ -9,7 +9,7 @@ import { Link } from "react-scroll";
 
 // varient="dark" data-bs-theme="dark"   bg-body-tertiary 
 
-function ResponsiveNavBar({ home, about_us }) {
+function ResponsiveNavBar({ home, about_us, services }) {
 
   return (
     <Navbar expand="sm" className="custom-navbar-theme" fixed="top">
@@ -36,7 +36,7 @@ function ResponsiveNavBar({ home, about_us }) {
               About Us
             </Link>
 
-            <Link className='nav-link' activeClass="active" spy={true} smooth={true} duration={100}>
+            <Link className='nav-link' activeClass="active" to={services} spy={true} smooth={true} duration={100}>
               Services
             </Link>
 

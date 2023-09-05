@@ -10,4 +10,13 @@
   background-color: rgb(207, 207, 207);
   height: 16pc;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.horizontal-div{
+  margin-bottom: 350px;
+  height: 24pc;
+  width: 95%;
 }

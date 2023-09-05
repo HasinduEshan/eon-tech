@@ -6,7 +6,7 @@ import './../page_body/custom.css';
 
 export default function MainPage() {
   return (
-    <div>
+    <div className='main'>
       {/* <ResponsiveNavBar /> */}
       <PageBody />
     </div>

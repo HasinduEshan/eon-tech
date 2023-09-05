@@ -1,0 +1,42 @@
+/* <style> */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+/* </style> */
+
+.card-div{
+  /* margin-bottom: 350px; */
+  margin-left: 60px;
+  margin-right: 60px;
+  display: inline-block;
+}
+
+.card{
+  height: 350px; 
+  width: 300px;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  border-radius: 20px;
+  filter: drop-shadow(-10px 10px 10px rgb(37, 37, 37,0.5));
+}
+
+.card-img{
+  width:90px; 
+  height: 90px; 
+  margin-top: 10px;
+}
+
+.card-title{
+  color:rgb(255, 128, 0);
+  font-size: 24px;
+  font-weight: bold; 
+  text-shadow: none;
+  /* font-family: 'open Sans'; */
+}
+
+.card-text{
+  padding-top: 15px;
+  font-size: 16px; 
+  text-shadow: none; 
+  font-family: 'open Sans';
+  text-align: center;
+}
