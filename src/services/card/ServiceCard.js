@@ -2,11 +2,11 @@ import Card from 'react-bootstrap/Card';
 
 import './card.css'
 
-function MyCard({title,text,image}) {
+function ServiceCard({ title, text, image }) {
   return (
     <div className='card-div'>
       <Card className='card'>
-        <Card.Img className='card-img' variant="top" src={image}/>
+        <Card.Img className='card-img' variant="top" src={image} />
         <Card.Body>
           <Card.Title className='card-title'>{title}</Card.Title>
           <Card.Text className='card-text'>
@@ -18,4 +18,4 @@ function MyCard({title,text,image}) {
   );
 }
 
-export default MyCard;
+export default ServiceCard;

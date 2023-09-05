@@ -1,6 +1,6 @@
 import './custom.css'
 import React from 'react'
-import MyCard from '../card/MyCard'
+import ServiceCard from '../card/ServiceCard'
 import seDevImg from './../../img/development.png'
 import webDev from './../../img/webDev.png'
 import appDev from './../../img/appDev.png'
@@ -33,12 +33,12 @@ export default function HorizontalFrame() {
   return (
     <div>
       <div className="scroll-container" id='scroll-container'>
-        <MyCard title={'Software Development'} text={'Creating tailored software solutions to address specific business needs, from web and mobile applications to enterprise software.'} image={seDevImg} />
-        <MyCard title={'Web development'} text={'Designing and developing websites, web applications, and e-commerce platforms.'} image={webDev} />
-        <MyCard title={'Mobile App Development'} text={'Building applications for iOS, Android, and other mobile platforms to cater to diverse user needs.'} image={appDev} />
-        <MyCard title={'Quality Assurance'} text={'Ensuring software quality through comprehensive testing, including functional, performance, and security testing.'} image={qa} />
-        <MyCard title={'Software Maintance'} text={'Providing ongoing updates, bug fixes, and technical support to keep software running smoothly.'} image={maintain} />
-        <MyCard title={'UI/UX'} text={'Creating tailored software solutions to address specific business needs, from web and mobile applications to enterprise software.'} image={uiUX} />
+        <ServiceCard title={'Software Development'} text={'Creating tailored software solutions to address specific business needs, from web and mobile applications to enterprise software.'} image={seDevImg} />
+        <ServiceCard title={'Web development'} text={'Designing and developing websites, web applications, and e-commerce platforms.'} image={webDev} />
+        <ServiceCard title={'Mobile App Development'} text={'Building applications for iOS, Android, and other mobile platforms to cater to diverse user needs.'} image={appDev} />
+        <ServiceCard title={'Quality Assurance'} text={'Ensuring software quality through comprehensive testing, including functional, performance, and security testing.'} image={qa} />
+        <ServiceCard title={'Software Maintance'} text={'Providing ongoing updates, bug fixes, and technical support to keep software running smoothly.'} image={maintain} />
+        <ServiceCard title={'UI/UX'} text={'Creating tailored software solutions to address specific business needs, from web and mobile applications to enterprise software.'} image={uiUX} />
       </div>
 
       <div className='btn-div'>
