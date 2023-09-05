@@ -1,5 +1,5 @@
 .cover{
-  background-image: url("/src/img/home-cover.jpg");
+  background-image: url("./../resources/img/home-cover.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;  
   background-size: cover;
@@ -19,7 +19,7 @@
 }
 
 .services-cover {
-  background-image: url("./../img/services.jpg");
+  background-image: url("./../resources/img/services.jpg");
   background-color: silver;
   background-repeat: no-repeat;
   background-attachment: fixed;

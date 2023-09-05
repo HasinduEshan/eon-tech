@@ -71,7 +71,7 @@
 }
 
 .facebook-icon{
-  background-image: url("/src/img/facebook.png");
+  background-image: url("/src/resources/img/facebook.png");
   background-repeat: no-repeat;
   background-size: contain;
   margin-right: 2pc;
@@ -80,7 +80,7 @@
 }
 
 .whatsapp-icon{
-  background-image: url("/src/img/whatsapp.png");
+  background-image: url("/src/resources/img/whatsapp.png");
   background-repeat: no-repeat;
   background-size: contain;
   margin-right: 2pc;
@@ -89,7 +89,7 @@
 }
 
 .linkedin-icon{
-  background-image: url("/src/img/linkedin.png");
+  background-image: url("/src/resources/img/linkedin.png");
   background-repeat: no-repeat;
   background-size: contain;
   margin-right: 2pc;
@@ -98,7 +98,7 @@
 }
 
 .gmail-icon{
-  background-image: url("/src/img/gmail.png");
+  background-image: url("/src/resources/img/gmail.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;

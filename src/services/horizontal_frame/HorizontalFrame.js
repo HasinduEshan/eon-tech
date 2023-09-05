@@ -1,12 +1,12 @@
 import './custom.css'
 import React from 'react'
 import ServiceCard from '../card/ServiceCard'
-import seDevImg from './../../img/development.png'
-import webDev from './../../img/webDev.png'
-import appDev from './../../img/appDev.png'
-import uiUX from './../../img/uiUx.png'
-import maintain from './../../img/maintain.png'
-import qa from './../../img/qa.png'
+import seDevImg from './../../resources/img/development.png'
+import webDev from './../../resources/img/webDev.png'
+import appDev from './../../resources/img/appDev.png'
+import uiUX from './../../resources/img/uiUx.png'
+import maintain from './../../resources/img/maintain.png'
+import qa from './../../resources/img/qa.png'
 import { ArrowLeftCircleFill, ArrowRightCircleFill } from 'react-bootstrap-icons';
 
 export default function HorizontalFrame() {
