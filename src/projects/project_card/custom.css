@@ -1,0 +1,41 @@
+#project-card-div{
+  padding-top: 50px;
+  margin-left: 60px;
+  margin-right: 60px;
+  display: inline-block;
+}
+
+#project-card{
+  background-color: transparent;
+  color: aliceblue;
+  text-align: left;
+  width: 300px;
+  height: 250px;
+  border: none;
+}
+
+#project-card:hover{
+  background-image: none;
+  #project-card-title{
+    color:aliceblue;
+  }
+  scale: 1.01 1.01;
+}
+
+#project-card-img{
+  border-radius: 10px;
+}
+
+#project-card-img:hover{
+  border-radius: 20px;
+}
+
+#project-card-title{
+  color: aliceblue;
+  font-size: large;
+}
+
+#project-card-text{
+  text-align: left;
+  font-size: 14px;
+}

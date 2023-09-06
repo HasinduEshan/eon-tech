@@ -1,0 +1,22 @@
+#project-frame {
+  height: 32pc;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#project-div {
+  /* padding-bottom: 30px; */
+  padding-top: 20px;
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#horizontal-project-div {
+  height: 28pc;
+  width: 95%;
+}

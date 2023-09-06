@@ -1,0 +1,48 @@
+
+#project-scroll {
+  width: 100%;
+  height: 26pc;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-top: 30px;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+#project-btn-div{
+  display: flex;
+  justify-content: space-between;
+}
+
+#left-btn{
+  background-color: transparent;
+  border-width: 2px;
+  border-radius: 60%;
+  height: 60px;
+  width: 60px;
+  border: none;
+  color: rgb(255, 128, 0);
+}
+
+#right-btn{
+  background-color: transparent;
+  border-width: 2px;
+  border-radius: 60%;
+  height: 60px;
+  width: 60px;
+  border: none;
+  color: rgb(255, 128, 0);
+}
+
+#left-btn:hover{
+  scale: 1.15 1.15;
+  cursor: pointer;
+}
+
+#right-btn:hover{
+  scale: 1.15 1.15;
+  cursor: pointer;
+}
