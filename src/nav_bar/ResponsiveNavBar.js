@@ -5,7 +5,7 @@ import logo from './../resources/img/logo.png';
 import './custom.css';
 import { Link } from "react-scroll";
 
-function ResponsiveNavBar({ home, about_us, services, company, projects }) {
+function ResponsiveNavBar({ home, about_us, services, company, projects, contact }) {
   
   return (
     <Navbar expand="sm" className="custom-navbar-theme" fixed="top">
@@ -35,7 +35,7 @@ function ResponsiveNavBar({ home, about_us, services, company, projects }) {
               Projects
             </Link>
 
-            <Link className='nav-link' activeClass="active" spy={true} offset={-50} smooth={true} duration={100}>
+            <Link className='nav-link' activeClass="active" to={contact} spy={true} offset={-50} smooth={true} duration={100}>
               Contact Us
             </Link>
 

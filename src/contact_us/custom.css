@@ -1,0 +1,52 @@
+.contact-topic{
+  text-align: center;
+  text-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.sub-topic{
+  color: aliceblue;
+  font-size: 35px;
+  font-weight: 500;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.contact-content{
+  text-align: center;
+  font-size: 22px;
+}
+
+.contact-img{
+  background-image: url('./../resources/img/contact_us.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 42pc;
+  width: 100%;  
+}
+
+.left-content-contact{
+  padding: 0;
+}
+
+.main-div-contact{
+  margin: 0;
+  padding: 0;
+}
+
+/* App.css or your custom CSS file */
+.bold-button-text {
+  margin-top: 50px;
+  font-weight: 600;
+  font-size: 22px;
+  border: 2px solid white;
+  width: 150px;
+  height: 50px;
+}
+
+.contact-btn-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
