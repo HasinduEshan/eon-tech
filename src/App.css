@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+/* App.css */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: darkgray; /* Background color of the entire page */
+}
+
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spinner-border {
+  color: darkorange; /* Color of the spinner */
+}
+
+.custom-spinner {
+  width: 80px; /* Adjust the size as needed */
+  height: 80px; /* Adjust the size as needed */
+  font-size: 2rem; /* Adjust the font size as needed */
+  color: rgb(239, 125, 3);
+  /* background-image: linear-gradient(0deg,darkorange,rgb(58, 58, 58),white); */
+}
