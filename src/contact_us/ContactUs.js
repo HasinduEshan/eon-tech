@@ -3,6 +3,14 @@ import './custom.css'
 import { Button } from 'react-bootstrap'
 
 export default function ContactUs() {
+  
+  const scrollToBottom = () => {
+    window.scrollTo({
+      top: document.documentElement.scrollHeight, // Scrolls to the bottom of the page
+      behavior: 'smooth', // Add smooth scrolling behavior
+    });
+  };
+
   return (
     <div className='container-fluid contact'>
       <div className='main-div main-div-contact row'>
@@ -25,11 +33,9 @@ export default function ContactUs() {
             <div className='txt'>We’ll answer your questions and provide afree consultation on how to move forward.</div>
           </div>
           <div className='contact-btn-div'>
-            <Button variant="outline-light" className="bold-button-text">Contact Us</Button>
+            <Button onClick={scrollToBottom} variant="outline-light" className="bold-button-text">Contact Us</Button>
           </div>
         </div>
-
-
 
       </div>
     </div>

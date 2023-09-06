@@ -40,10 +40,10 @@ export default function HomePage() {
           <div className='linkedin-icon'>
           </div>
         </a>
-        <a href='https://wa.me/94742242812' rel="noreferrer" target="_blank">
+        {/* <a href='https://wa.me/94742242812' rel="noreferrer" target="_blank">
           <div className='whatsapp-icon'>
           </div>
-        </a>
+        </a> */}
         <a href='https://www.facebook.com/profile.php?id=100089482297473&mibextid=2JQ9oc' rel="noreferrer" target="_blank">
           <div className='facebook-icon'>
           </div>

@@ -44,6 +44,10 @@
   align-items: center;
   min-height: 100vh;
   background-color: darkgray; /* Background color of the entire page */
+  background-image: url('./resources/img/logo.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 .spinner-container {

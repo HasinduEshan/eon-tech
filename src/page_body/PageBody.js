@@ -7,6 +7,7 @@ import Services from '../services/Services';
 import Company from '../company/Company';
 import Projects from '../projects/Projects';
 import ContactUs from '../contact_us/ContactUs';
+import SubContactUs from '../contact_us/sub_contact/SubContactUs';
 
 export default function PageBody() {
   return (
@@ -47,11 +48,21 @@ export default function PageBody() {
       <section id='contact_us' className='container-fluid'>
         <div className='row contact-row'>
           <div className='about-us-cover contact col-sm-12 col-md-6'>
-            <ContactUs/>
+            <ContactUs />
           </div>
         </div>
       </section>
 
+
+      <section id='sub_contact' className='container-fluid'>
+        <div className='row'>
+          <div className='sub-contact-div col-sm-12 col-md-6'>
+          <SubContactUs />
+          </div>
+        </div>
+      </section>
+
+      
     </div>
   )
 }
