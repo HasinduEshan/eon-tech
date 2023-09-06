@@ -57,12 +57,11 @@ export default function PageBody() {
       <section id='sub_contact' className='container-fluid'>
         <div className='row'>
           <div className='sub-contact-div col-sm-12 col-md-6'>
-          <SubContactUs />
+            <SubContactUs />
           </div>
         </div>
       </section>
 
-      
     </div>
   )
 }
